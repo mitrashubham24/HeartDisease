@@ -19,6 +19,7 @@ expected_columns = joblib.load(os.path.join(BASE_DIR, "heart_columns.pkl"))
 # -------------------- HEADER --------------------
 st.title("Heart Disease Risk Assessment")
 st.write("Provide patient details to evaluate cardiovascular risk.")
+st.write("Built with care by Shubham")
 
 st.markdown("---")
 
